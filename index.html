@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Wedding of Yusup & Mia</title>
+  <meta property="og:title" content="Undangan Pernikahan Yusup & Mia">
+  <meta property="og:description" content="Minggu, 14 Juni 2026 - Kp. Pasir Tolok, Cianjur">
+  <meta property="og:image" content="https://yusup28.github.io/UNDANGAN-YUSUP-MIA/images/3.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="cover-overlay">
+    <p class="serif" style="letter-spacing:3px">THE WEDDING OF</p>
+    <h1 style="font-size:3.5rem; margin:15px 0">Yusup & Mia</h1>
+    <div class="guest-box">
+      <p style="font-size:0.9rem">Kepada Yth:</p>
+      <h2 id="nama-tamu" class="serif" style="font-size:1.6rem">Tamu Undangan</h2>
+    </div>
+    <button onclick="bukaUndangan()" class="btn-submit"><i class="fas fa-envelope-open"></i> Buka Undangan</button>
+  </div>
+  <audio id="audioInv" loop src="musik.mp3"></audio>
+  <div id="musicBtn" class="music-control"><i class="fas fa-music"></i></div>
+  <main class="main-container">
+    <section style="text-align:center">
+      <div class="dual-avatar">
+        <div class="avatar-circle"><img src="images/22.jpg"></div>
+        <div class="avatar-circle"><img src="images/23.jpg"></div>
+      </div>
+      <h1 style="color:#9b6b43">Yusup & Mia</h1>
+      <div class="countdown-container">
+        <div class="countdown-item"><span id="days">0</span><small>Hari</small></div>
+        <div class="countdown-item"><span id="hours">0</span><small>Jam</small></div>
+        <div class="countdown-item"><span id="mins">0</span><small>Menit</small></div>
+        <div class="countdown-item" id="seconds-box"><span id="secs">0</span><small>Detik</small></div>
+      </div>
+    </section>
+  </main>
+  <nav class="bottom-menu">
+    <a href="index.html" class="menu-item active"><i class="fas fa-home"></i><span>Home</span></a>
+    <a href="invitation.html" class="menu-item"><i class="fas fa-calendar"></i><span>Acara</span></a>
+    <a href="couple.html" class="menu-item"><i class="fas fa-heart"></i><span>Couple</span></a>
+    <a href="galeri.html" class="menu-item"><i class="fas fa-images"></i><span>Galeri</span></a>
+    <a href="hadiah.html" class="menu-item"><i class="fas fa-gift"></i><span>Hadiah</span></a>
+    <a href="rsvp.html" class="menu-item"><i class="fas fa-check"></i><span>RSVP</span></a>
+  </nav>
+  <script src="js/script.js"></script>
+</body>
+</html>
